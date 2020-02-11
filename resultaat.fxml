@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.Controller4">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0cf500" height="68.0" layoutX="25.0" layoutY="251.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f50000" height="68.0" layoutX="427.0" layoutY="251.0" stroke="BLACK" strokeType="INSIDE" width="209.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="14.0" prefHeight="41.0" prefWidth="598.0" text="Je bent klaar en je kunt je resultaat hieronder zien">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="147.0" layoutX="23.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" width="613.0" />
+            <Label layoutX="47.0" layoutY="136.0" fx:id="label1" prefHeight="48.0" prefWidth="421.0" text="Aantal sommen goed: ">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="184.0" fx:id="label2" prefHeight="48.0" prefWidth="421.0" text="Aantal sommen fout:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="38.0" layoutY="256.0" onAction="#openNewStage2" mnemonicParsing="false" prefHeight="58.0" prefWidth="176.0" text="Nog een keer">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Button layoutX="438.0" layoutY="256.0" mnemonicParsing="false" onAction="#StopHandler" prefHeight="58.0" prefWidth="191.0" text="Stoppen">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font></Button>
+            <ImageView fitHeight="107.0" fitWidth="663.0" layoutY="332.0">
+               <image>
+                  <Image url="@Documents/NetBeansProjects/Rekentrainergoed/build/classes/rekentrainergoed/logo.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="249.0" layoutY="256.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="157.0" text="- Kies hier -">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="47.0" layoutY="96.0" prefHeight="48.0" prefWidth="421.0" text="Aantal sommen gemaakt:">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="258.0" fx:id="label3" layoutY="96.0" prefHeight="48.0" prefWidth="84.0" text="">
+            <font>
+            <Font name="System Bold" size="18.0" />
+            </font>
+            </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
+</AnchorPane>
