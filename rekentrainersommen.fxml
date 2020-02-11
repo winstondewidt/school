@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.Controller3">
+<VBox prefHeight="416.0" prefWidth="1144.0" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="417.0" prefWidth="1031.0">
+      <children>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="388.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="757.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f1ff21" height="77.0" layoutX="769.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="361.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff32" height="77.0" layoutX="7.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="321.0" />
+            <Line endX="1045.0" endY="6.0" layoutX="96.0" layoutY="299.0" startX="-102.5" startY="6.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="77.0" layoutX="347.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="407.0" />
+               <ImageView fitHeight="446.0" fitWidth="388.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Rekentellen.jpg" />
+                  </image>
+               </ImageView>
+            <Label fx:id="labelgetal1" alignment="CENTER" layoutX="473.0" layoutY="110.0" prefHeight="86.0" prefWidth="220.0" text="4 x 2 =">
+               <font>
+                  <Font size="52.0" />
+               </font>
+            </Label>
+            <TextField id="Ingevuldegetal" fx:id="Ingevuldegetal" layoutX="693.0" layoutY="122.0" prefHeight="62.0" prefWidth="228.0" promptText="" />
+            <Button layoutX="490.0" layoutY="209.0" mnemonicParsing="false" onAction="#changescreenbuttonpressedresultaat" prefHeight="45.0" prefWidth="437.0" text="Volgende Som">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Button>
+               <Label layoutX="401.0" fx:id="persoon" layoutY="1.0" prefHeight="62.0" prefWidth="742.0" text="Brain zegt: De eerste som is voor de lol">
+                  <font>
+                     <Font name="Arial Black" size="29.0" />
+                  </font>
+               </Label>
+               <Label fx:id="goed" layoutX="30.0" layoutY="337.0" prefHeight="45.0" prefWidth="283.0" text="Aantal sommen goed:">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="fout" layoutX="367.0" layoutY="337.0" prefHeight="45.0" prefWidth="361.0" text="Aantal sommen fout:">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="aantal" layoutX="779.0" layoutY="335.0" prefHeight="45.0" prefWidth="336.0" text="Aantal sommen gemaakt: ">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font>
+               </Label>
+               <TextField fx:id="textfield2" visible="false" layoutX="966.0" layoutY="122.0" />
+               <TextField fx:id="textfield3" visible="false"  layoutX="966.0" layoutY="172.0" />
+               <TextField fx:id="textfield4" visible="false"  layoutX="966.0" layoutY="219.0" />
+               <TextField fx:id="textfield5" visible="false"  layoutX="966.0" layoutY="262.0" />
+               <TextField fx:id="textfield1" visible="false"  layoutX="966.0" layoutY="85.0" />
+               <TextField fx:id="textfield6" visible="false"  layoutX="966.0" layoutY="105.0" />
+               <TextField fx:id="textfield7" visible="false"  layoutX="966.0" layoutY="155.0" />
+      </children>
+      </AnchorPane>
+      </children>
+</VBox>
+</AnchorPane>
